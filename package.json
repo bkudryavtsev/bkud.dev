@@ -1,0 +1,22 @@
+{
+  "name": "bkud.dev",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Boris Kudryavtsev",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel app/index.html"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}
