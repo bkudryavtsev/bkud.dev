@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    outline: 0;
+}
+
+#root {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.light {
+    color: #969696;
+}
+
+.blur-in {
+    animation: blurIn ease 1s;
+    -webkit-animation: blurIn ease 1s;
+}
+
+#canvas {
+    height: 100%;
+    opacity: 0.7;
+}
+
+@keyframes blurIn{
+    0% {
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+    100% {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .app {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+    }
+
+    .container div:first-child {
+        order: 1;
+    }
+
+    .content {
+        padding: 0.5em;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 100%;
+        min-width: 100px;
+        overflow: visible;
+    }
+
+    #canvas {
+        width: 100%;
+    }
+}
