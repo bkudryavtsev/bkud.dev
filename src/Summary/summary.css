@@ -1,0 +1,60 @@
+.summary {
+  margin: 20px;
+  height: calc(100% - 40px);
+  width: 50%;
+  min-width: 300px;
+  max-width: 512px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.summary h1 {
+  font-size: 4em;
+  line-height: 0.2;
+  color: gold;
+}
+
+.summary h2 {
+  font-size: 1.6em;
+  color: #777777;
+}
+
+.summary h2 #name {
+  color: #484848;
+}
+
+.summary p {
+  font-size: 1em;
+  color: #222222;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+
+.social img {
+  width: 64px;
+  height: auto;
+  opacity: 0.6;
+  transition: all 200ms;
+}
+
+.social img:hover {
+  opacity: 0.9;
+  fill: gold;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .summary {
+    width: 90%;
+    max-width: 100%;
+    min-width: 100px;
+    overflow: visible;
+  }
+}
