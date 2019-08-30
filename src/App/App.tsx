@@ -6,13 +6,13 @@ import './app.css'
 
 class App extends Component {
   componentDidMount() {
-    console.log(`
+    console.log(`%c
       \)_\(
      ~° °~__ ___
       \`*\´   \´   ==
         \\ ,---| /
         ||    ||    
-        ^^    ^^`)
+        ^^    ^^`, 'font-family:monospace')
   }
 
   render() {
