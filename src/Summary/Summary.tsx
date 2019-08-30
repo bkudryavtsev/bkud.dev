@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import TypingText from '../TypingText/TypingText'
 
 import LinkedInIcon from './assets/linkedin.svg'
 import EmailIcon from './assets/email.svg'
@@ -11,10 +10,7 @@ class App extends Component {
   render() {
     return(
       <div className='summary'>
-        <h1>
-            <TypingText>
-            </TypingText>
-        </h1>
+        <h1>Hello!</h1>
         <h2>My name is <br /><span id="name">Boris Kudryavtsev</span></h2>
         <p>I am a Computer Science student at the University of Victoria passionate about
           building elegant and efficient applications.
