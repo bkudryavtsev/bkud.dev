@@ -6,18 +6,21 @@ import './app.css'
 
 class App extends Component {
   componentDidMount() {
-    console.log(`%c
+    console.log(
+      `%c
       \)_\(
      ~° °~__ ___
       \`*\´   \´   ==
         \\ ,---| /
         ||    ||    
-        ^^    ^^`, 'font-family:monospace')
+        ^^    ^^`,
+      'font-family:monospace'
+    )
   }
 
   render() {
-    return(
-      <div className='container'>
+    return (
+      <div className="container">
         <Summary />
         <Charm cellWidth={64} numCells={8} />
       </div>
