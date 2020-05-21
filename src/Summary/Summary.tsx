@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import LinkedInIcon from './assets/linkedin.svg'
 import EmailIcon from './assets/email.svg'
-import BitBucketIcon from './assets/bitbucket.svg'
+import GithubIcon from './assets/github.svg'
 
 import './summary.css'
 
@@ -31,8 +31,11 @@ class App extends Component {
           <a href="mailto:boriskk.work@gmail.com">
             <img src={EmailIcon} alt="Email" />
           </a>
-          <a href="https://bitbucket.org/bkudryavtsev/">
-            <img src={BitBucketIcon} alt="Dribbble" />
+          <a href="https://github.com/bkudryavtsev">
+            <img style={{
+              paddingTop: '3px',
+              width: '56px'
+            }} src={GithubIcon} alt="Github" />
           </a>
         </div>
       </div>
