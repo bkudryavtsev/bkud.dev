@@ -1,12 +1,6 @@
 .summary {
   padding: 20px 40px 20px 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  -ms-overflow-style: none;
-}
-
-.summary::-webkit-scrollbar {
-  display: none;
+  overflow: hidden;
 }
 
 .summary h1 {
