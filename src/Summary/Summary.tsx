@@ -19,9 +19,9 @@ class App extends Component {
           I am a Computer Science student at the University of Victoria
           passionate about building elegant and efficient applications.
         </p>
-        <p style={{ textAlign: 'center' }}>
+        <p style={{ textAlign: 'left' }}>
           <span className="light">
-            Sunnyvale, CA, USA | Victoria, BC, Canada
+            Vancouver, BC
           </span>
         </p>
         <div className="social">
