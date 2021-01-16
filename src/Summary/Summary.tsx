@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 
-import LinkedInIcon from './assets/linkedin.svg'
-import EmailIcon from './assets/email.svg'
-import GithubIcon from './assets/github.svg'
+import LinkedInIcon from './assets/linkedin.png'
+import EmailIcon from './assets/email.png'
+import GithubIcon from './assets/github.png'
+import PaperIcon from './assets/paper.png'
 
 import './summary.css'
 
@@ -16,8 +17,7 @@ class App extends Component {
           <span id="name">Boris Kudryavtsev</span>
         </h2>
         <p>
-          I am a Computer Science student at the University of Victoria
-          passionate about building elegant and efficient applications.
+          I am a graduating Computer Science student at the University of Victoria passionate about building beautiful and efficient applications. Excited to utilize and further develop my skills in computer science and front-end development alongside industry professionals.
         </p>
         <p style={{ textAlign: 'left' }}>
           <span className="light">
@@ -25,17 +25,21 @@ class App extends Component {
           </span>
         </p>
         <div className="social">
-          <a href="https://www.linkedin.com/in/bkudryavtsev/">
+          <a className="item" href="/Boris_Kudryavtsev.pdf">
+            <img src={PaperIcon} alt="Resume" />
+            <p>Resume</p>
+          </a>
+          <a className="item" href="https://www.linkedin.com/in/bkudryavtsev/">
             <img src={LinkedInIcon} alt="Linkedin" />
+            <p>LinkedIn</p>
           </a>
-          <a href="mailto:boriskk.work@gmail.com">
+          <a className="item" href="mailto:boriskk.work@gmail.com">
             <img src={EmailIcon} alt="Email" />
+            <p>Email</p>
           </a>
-          <a href="https://github.com/bkudryavtsev">
-            <img style={{
-              paddingTop: '3px',
-              width: '56px'
-            }} src={GithubIcon} alt="Github" />
+          <a className="item" href="https://github.com/bkudryavtsev">
+            <img src={GithubIcon} alt="Github" />
+            <p>GitHub</p>
           </a>
         </div>
       </div>
