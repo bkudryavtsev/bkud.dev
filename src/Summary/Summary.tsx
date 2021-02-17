@@ -17,7 +17,7 @@ class App extends Component {
           <span id="name">Boris Kudryavtsev</span>
         </h2>
         <p>
-          I am a graduating Computer Science student at the University of Victoria passionate about building beautiful and efficient applications. Excited to utilize and further develop my skills in computer science and front-end development alongside industry professionals.
+          I am a graduating Computer Science student at the University of Victoria passionate about building beautiful and efficient applications. Excited to utilize and further develop my skills in computer science and software development alongside industry professionals.
         </p>
         <p style={{ textAlign: 'left' }}>
           <span className="light">
